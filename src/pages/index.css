@@ -1,0 +1,24 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/text/text.css);
+
+@import url(../blocks/indent/indent.css);
+@import url(../blocks/indent/__geolacation/indent__geolacation.css);
+
+@import url(../blocks/geolocation/geolocation.css);
+
+@import url(../blocks/quote/__text/quote__text.css);
+
+@import url(../blocks/data/data.css);
+@import url(../blocks/data/__greeting/data__greeting.css);
+@import url(../blocks/data/__time/data__time.css);
+@import url(../blocks/data/__day/data__day.css);
+@import url(../blocks/data/__mouse/data__mouse.css);
+
+@import url(../blocks/more/more.css);
+@import url(../blocks/more/__item/more__item.css);
+

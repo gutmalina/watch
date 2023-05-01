@@ -1,0 +1,16 @@
+body {
+  min-width: 320px;
+  color: #ffffff80;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 18px;
+  font-style:  normal;
+  font-weight: 400;
+  background-image: url(../../images/afternoon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

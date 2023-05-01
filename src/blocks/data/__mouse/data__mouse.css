@@ -1,0 +1,12 @@
+.data__mouse {
+  position: absolute;
+  bottom: 1vw;
+  right: 8vw;
+  margin: 0;
+  transform: rotate(90deg);
+  font-size: 12vw;
+}
+
+.data__mouse_active {
+  transform: rotate(-90deg);
+}

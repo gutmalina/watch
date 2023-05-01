@@ -1,5 +1,5 @@
-export const body = document.querySelector('body');
 export const geolocation = document.querySelector('.geolocation');
+export const lead = document.querySelector('.lead');
 export const data = document.querySelector('.data');
 export const time = document.querySelector('.data__time');
 export const day = document.querySelector('.data__day');
@@ -12,7 +12,6 @@ export const sunrise = document.querySelector('.more__type_sunrise');
 export const sunset = document.querySelector('.more__type_sunset');
 export const dayLength = document.querySelector('.more__type_day-length');
 export const greeting = document.querySelector('.data__greeting');
-export const main = document.querySelector('.main');
 export const quoteText = document.querySelector('.quote__text');
 export const quoteAutor = document.querySelector('.quote__autor');
 

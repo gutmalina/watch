@@ -1,8 +1,8 @@
 import "../pages/index.css";
 import { api, apiQuote } from "../components/Api";
 import {
-  body,
   geolocation,
+  lead,
   data,
   mouse,
   time,
@@ -15,7 +15,6 @@ import {
   sunset,
   dayLength,
   greeting,
-  main,
   InitialQuote,
   quoteText,
   quoteAutor
@@ -87,6 +86,13 @@ const handleDayOfWeek = (day) => {
 data.addEventListener('click', ()=>{
   more.classList.toggle('more__active');
   mouse.classList.toggle('data__mouse_active');
+  if(screen.availWidth > 767){
+    lead.classList.toggle('lead__screen-768');
+    more.classList.toggle('more__screen-768');
+    data.classList.toggle('data__screen-768');
+    mouse.classList.toggle('data__mouse_screen-768');
+    mouse.classList.toggle('data__mouse_active');
+  }
 })
 
 const handleQuote = () => {
@@ -96,3 +102,5 @@ const handleQuote = () => {
 }
 
 handleQuote()
+
+console.dir(screen)

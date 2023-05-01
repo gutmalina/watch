@@ -23,3 +23,12 @@
     text-shadow: -3px 2px 6px #000, -2px 1px 10px #000, 0px 0px 0px #fff;
    }
 }
+
+.more__screen-768 {
+  margin: 0;
+  font-size: clamp(12px,2.5vw,36px);
+  padding: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 1.5;
+}

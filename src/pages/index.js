@@ -25,7 +25,7 @@ const setDate = () => {
     .getTimeZone()
     .then((res) => {
       geolocation.textContent = `${res.geo.country_name.toLocaleUpperCase()},  ${res.geo.city.toLocaleUpperCase()}`;
-      time.textContent = res.time_24.slice(0, 5);
+      time.textContent = res.time_24;
       day.textContent = res.date_time_wti.slice(0, (res.date_time_wti.length - 15)).toLocaleUpperCase();
       week.textContent = res.week;
       dayYear.textContent = ((res.week - 1)*7) + handleDayOfWeek(res.date_time_txt.split(', ')[0]);
@@ -101,6 +101,9 @@ const handleQuote = () => {
   quoteAutor.textContent = randomQuote.a.toLocaleUpperCase();
 }
 
-handleQuote()
+handleQuote();
 
-console.dir(screen)
+let now = setInterval(() => {
+  let date = new Date();
+  time.textContent = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+}, 1000);

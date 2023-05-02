@@ -3,11 +3,11 @@
 body{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-image:url(ad67413ddf693dd9319a.jpg);background-repeat:no-repeat;background-size:cover;color:#ffffff80;font-family:Cinzel Decorative,cursive;font-size:18px;font-style:normal;font-weight:400;min-width:320px}
 .main{display:flex;flex-direction:column;height:100vh;margin:0 auto;max-width:1440px;width:100%}
 .text{font-size:clamp(12px,3vw,36px);font-weight:700;text-shadow:-3px 2px 6px #000,-2px 1px 10px #000,0 0 0 #fff}
-.indent{margin:0 8% 8%}
-.indent__geolacation{margin:5% 8%}
+.indent{margin:0 8% 8%}@media screen and (min-width:960px){.indent{margin:0 8% 77px}}
+.indent__geolacation{margin:5% 8%}@media screen and (min-width:960px){.indent__geolacation{margin:50px 8%}}
 .geolocation{display:flex;justify-content:space-between;position:relative}
 .quote__text{font-size:clamp(16px,4vw,40px);font-weight:400}
-.lead{display:flex;flex-direction:column}.lead__screen-768{display:grid;gap:20px;grid-template-columns:repeat(2,1fr);margin:0 8% 8%}
+.lead{grid-template-columns:1fr}.lead,.lead__screen-768{display:grid;transition:1.5s ease-in-out}.lead__screen-768{gap:20px;grid-template-columns:repeat(2,1fr);margin:0 8% 8%}
 .data{-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);background:#00000010;box-shadow:inset 0 0 6px 3px #00000020,-15px 15px 18px -2px #00000050,0 0 17px 8px #00000070,inset 0 0 0 2px #ffffff60,inset 5px -7px 20px -4px #ffffff80,5px -7px 20px -4px #ffffff80;box-sizing:border-box;cursor:pointer;display:grid;font-size:clamp(18px,5vw,48px);gap:20px;grid-template-columns:1fr;line-height:1;max-width:720px;overflow:hidden;padding:3%;position:relative}.data,.data:after{border-radius:20px}.data:after{-webkit-backdrop-filter:blur(1px);backdrop-filter:blur(1px);background:#ffffff40;box-shadow:inset 0 0 0 2px #ffffff60;content:"";height:100%;left:0;position:absolute;top:0;width:100%}.data__screen-768{align-items:center;font-size:clamp(18px,3.5vw,48px);margin:0;padding:5%}@media screen and (min-width:768){.data{gap:30px}}
 .data__greeting{margin:0}
 .data__time{margin:0}

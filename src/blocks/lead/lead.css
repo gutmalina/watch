@@ -1,11 +1,13 @@
 .lead {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  transition: 1.5s ease-in-out;
 }
 
 .lead__screen-768 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  transition: 1.5s ease-in-out;
   gap: 20px;
   margin: 0 8% 8%;
 }

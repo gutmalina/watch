@@ -1,3 +1,9 @@
 .indent__geolacation {
   margin: 5% 8%;
 }
+
+@media screen and (min-width: 960px) {
+  .indent__geolacation {
+    margin: 50px 8%;
+  }
+}
